@@ -9,20 +9,33 @@
     <!-- Google font-awesone cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Atalho: link:css Enter-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>Número Secreto</title>
 </head>
 <body>
-    <h1>Acerte o número secreto</h1>
-    <h3>O número secreto está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span>.</h3>
-    <!-- Atalho: #chute.mensagem Enter-->
-    <div id="chute" class="mensagem">
-        <!--
-            <div>Você disse:</div>
-            <span class="box">20</span>
-            <div>O número secreto é maior <i class="fa-sharp fa-solid fa-arrow-up"></i> </div>
-        -->
-    </div>
+    <header>
+        <a href="pagina.html" class="link__francisco">
+            Voltar para Projetos de Francisco Santos
+        </a>
+    </header>
+    <main>
+        
+        <section class="secao-painel">
+            <h1>Acerte o número secreto</h1>
+            <h3>O número secreto está entre <span id="menor-valor">0</span> e <span id="maior-valor">100</span>.</h3>
+            <!-- Atalho: #chute.mensagem Enter-->
+            <div id="chute" class="mensagem">
+                <!--
+                    <div>Você disse:</div>
+                    <span class="box">20</span>
+                    <div>O número secreto é maior <i class="fa-sharp fa-solid fa-arrow-up"></i> </div>
+                -->
+            </div>
+        </section>
+        <section class="secao-tela-erros">
+            <h3 id="quantidade-erros" class="quantidade-erros">Erros: 0</h1>
+        </section>
+    </main>
     <!-- Atalho: script:src Enter -->
     <script src="js/sortearNumero.js"></script>
     <script src="js/reconhecimentoDeVoz.js"></script>

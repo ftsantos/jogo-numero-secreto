@@ -1,5 +1,7 @@
 const menorValor = 1;
 const maiorValor = 100;
+var quantidadeDeErros = 0;
+const quantidadeMaximaDeErros = 5;
 const numeroSecreto = gerarNumeroAleatorio();
 const elementoMenorValor = document.getElementById('menor-valor');
 const elementoMaiorValor = document.getElementById('maior-valor');
